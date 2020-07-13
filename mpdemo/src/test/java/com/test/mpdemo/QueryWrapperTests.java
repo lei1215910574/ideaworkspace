@@ -133,4 +133,9 @@ public class QueryWrapperTests {
         List<User> users = userMapper.selectList(queryWrapper);
         users.forEach(System.out::println);
     }
+
+    @Test
+    public void testGit(){
+        System.out.println("hello");
+    }
 }
